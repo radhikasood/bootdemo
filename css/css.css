@@ -1,0 +1,51 @@
+.header{
+    color: black;
+    background: #fff063;
+    text-align: center;
+    width: 100%;
+
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    height: 100%;
+    overflow: auto;
+}
+
+.vlist{
+    display: block;
+    color: #2b669a;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: ridge;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.active {
+    background-color: #f2dede;
+}
+/* Change the link color on hover */
+.vlist:hover {
+    background-color: #555;
+    color: white;
+}
